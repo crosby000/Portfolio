@@ -1,0 +1,269 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+header {
+	width:100%;
+	background-color:#5A7096;
+}
+
+.header-container {
+	width:1024px;
+	margin: 0 auto;
+}
+
+nav {
+	height:70px;
+	/*float:right;*/
+}
+
+.logo {
+	float:left;
+	width:150px;
+	height:auto;
+}
+.nav-list {
+	font-size:16px;
+	line-height:70px;
+	width:120px;
+	color:#FAFAFA;
+	margin:auto 30px;
+	float:right;
+	text-align:right;
+	list-style:none;
+}
+
+#mv {
+	width:100%;
+	height:650px;
+	text-align:center;
+	color:#FAFAFA;
+	background-image:url(img/mv.png);
+	background-size:cover;
+	background-position:center;
+}
+
+.container {
+	width:1024px;
+	margin:0 auto;
+	padding-top:200px;
+}
+
+.mv-title {
+	font-size:64px;
+}
+
+.mv-text {
+	font-size:20px;
+	padding-top:10px;
+}
+
+#portfolio {
+	width:100%;
+	background-color:#ECEFF1;
+}
+
+
+.heading {
+	font-size:32px;
+	color:#000000;
+	padding-top:90px;
+	text-align:center;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
+.heading-text {
+	padding-top:30px;
+	padding-bottom:30px;
+	text-align:center;
+}
+
+.container2 {
+	width:1020px;
+	margin:0 auto;
+	/*text-align:center;*/
+}
+
+.clearfix:after {
+	display:block;
+	clear:both;
+	content: "";
+}
+
+.production-group {
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	padding: 30px 0 90px 0;
+}
+
+
+.work a {
+	width:300px;
+	height:250px;
+	float:left;
+	margin:10px 10px 0 0;
+	background-size:cover;
+	background-position:center;
+	display:block;
+}
+
+.work:hover {
+	opacity:0.6;
+}
+
+.product1 a {
+	background-image:url(img/meshitero.jpg);
+}
+
+.product2 a {
+	background-image:url(img/skipshot.jpg);
+}
+
+.product3 a {
+	background-image:url(img/furui_kuruma.jpg);
+}
+
+.product4 a {
+	background-image:url(img/asmr.jpg);
+}
+
+.product5 a {
+	background-image:url(img/tankibaito.jpg);
+}
+
+.product6 a {
+	background-image:url(img/diary.jpg);
+}
+
+#feature {
+	background-color:#ECEFF1;
+}
+
+.fa {
+	/*display: inline-block;*/
+  /*font: normal normal normal 14px/1 FontAwesome;*/
+  font-size: 60px;
+  text-rendering: auto;
+  padding:10px auto;
+}
+
+.strength-group {
+	width:980px;
+	margin:0 auto;
+}
+
+.strength {
+	width:320px;
+	height:auto;
+	float:left;
+	padding:30px 10px 90px;
+	text-align:center;
+}
+
+.strength-title {
+	font-size:20px;
+	text-align:center;
+	color:#000000;
+	padding:10px auto;
+}
+
+.strength-text {
+	font-size:16px;
+	color:#000000;
+}
+
+.container4 {
+	width:1040px;
+	margin:0 auto;
+}
+
+.florat-content {
+	float:left;
+}
+
+#profile {
+	background-color:#ECEFF1;
+}
+
+.profile-group {
+	padding:30px 0 90px 0;
+}
+
+.my-face {
+	background-image:url(img/messi_prof.jpg);
+	background-size:cover;
+	background-position:center;
+	border-radius:50%;
+	width:250px;
+	height:250px;
+	margin:0 auto;
+}
+
+.left-content {
+	float:left;
+	width:512px;
+}
+
+.right-contet {
+	width:512px;
+	float:right;
+}
+
+.discription-title {
+	font-size:20px;
+	padding-bottom:5px;
+}
+
+.discription-text {
+	font-size:16px;
+	color:#000000;
+	padding-bottom:8px;
+}
+
+#contact {
+	background-color:#ffffff;
+}
+
+.container5 {
+	width:800px;
+	margin:0 auto 90px;
+}
+
+.link-text {
+	padding-bottom:20px;
+}
+
+.sns-link {
+	font-size:50px;
+	padding-right:20px;
+}
+
+footer {
+	width:100%;
+	line-height:60px;
+	background-color:#EC715F;
+}
+
+footer p {
+	text-align:center;
+	font-size:16px;
+	padding:auto 0;
+	color:#ffffff;
+}
+

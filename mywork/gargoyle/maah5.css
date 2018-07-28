@@ -1,0 +1,123 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 2
+
+   The Gargoyle Collection HTML5 Style Sheet
+
+   Author: Nicole Swanson
+   Date:   3/1/2014
+
+   Filename:         maah5.css
+   Supporting Files: 
+
+*/
+
+
+
+/* Display HTML5 structural elements as blocks */
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+
+/* Set the default page element styles */
+
+body {
+   background-image: url(gbar.jpg);
+   width: 810px;
+}
+
+a:visited, a:active, a:link {
+   color: white;
+}
+
+
+
+/* Navigation list styles */
+nav {
+   width: 165px;
+   float: left;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+nav ul li {
+   line-height: 1.15;
+}
+
+nav h4 {
+   color: yellow;
+}
+
+
+/* Main section styles */
+
+section#main {
+   width: 645px;
+   float: left;
+}
+
+
+section#main h4 {
+   text-align: center;
+}
+
+/* Header styles */
+
+section#main header {
+   width: 100%;
+   text-align: center;
+}
+
+
+/* article styles */
+
+article {
+   width: 320px;
+   margin-right: 5px;
+   float: left;
+}
+
+article h4 {
+   color: red;
+}
+
+article img {
+   float: right;
+}
+
+
+/* aside styles */
+
+aside {
+   width: 320px;
+   float: left;
+}
+
+section#main aside:first-of-type {
+   background-color: yellow;
+}
+
+section#main aside:last-of-type img {
+   float: right;
+}
+
+
+section#main aside:last-of-type h4 {
+   color: red;
+}
+
+
+
+
+
+
+
+

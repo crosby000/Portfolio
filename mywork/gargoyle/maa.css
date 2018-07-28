@@ -1,0 +1,87 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 2
+
+   Middle Age Arts Style Sheet
+
+   Author:    Nicole Swanson
+   Date:      3/1/2014
+
+   Filename:         maa.css
+   Supporting Files: 
+
+*/
+
+img {
+   border-width: 0px;
+}
+
+body {
+   background-image: url(gbar.jpg);
+}
+
+a:visited {
+   color: white;
+}
+
+a:active {
+   color: white;
+}
+
+a:link {
+   color: white;
+}
+
+body table {
+   width: 810px;
+}
+
+#leftcol {
+   width: 165px;
+}
+
+#rightcol {
+   width: 645px;
+}
+
+#rightcol table {
+   width: 645px;
+}
+
+#article1 {
+   width: 320px;
+}
+
+#gutter {
+   width: 5px;
+}
+
+#aside1 {
+   background-color: yellow;
+}
+
+#aside1, #aside2 {
+   width: 320px;
+}
+
+
+#leftcol h4 {
+   color: yellow;
+}
+
+#article1 h4, #aside2 h4 {
+   color: red;
+}
+
+#article1 img, #aside2 img {
+   float: right;
+}
+
+
+#rightcol h4 {
+   text-align: center;
+}
+
+
+
